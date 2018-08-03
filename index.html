@@ -7,25 +7,75 @@
 	<title>Developer Portfolio</title>
 <!-- STYLESHEETS AND CSS FILES SHOULD BE ON TOP, BECAUSE THEY SHOULD BE RENDERED BEFORE THE ENTIRE PAGE IS LOADED IN THE SKELETON FORM -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
+
 </head>
 <body>
 	<div id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-				
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<!-- THIS IS THE HAMBURGER BUTTON FOR MOBILE DEVICES TO LIST THE NAVIGATION -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- ADDING THE TOP LEFT BRAND NAME -->
+				<a class="navbar-brand" href="#">Amitrajit Bose</a>
 			</div>
+				
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#pricing">Pricing</a></li>
+					<li><a href="#mission">Mission</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#clients">Clients</a></li>
+					<li><a href="#contact">Contact</a></li>
 
+					<!-- NOW THE LOGIN BUTTON -->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b><span class="caret"></span></a>
+						<ul id="login-dp" class="dropdown-menu">
+							<li>
+								<div class="row">
+									<div class="col-md-12">
+										Login Via
+										<span class="social-buttons">
+											<a class="btn btn-fb" href="#"><i class="fab fa-facebook-f"></i></a>
+											<a class="btn btn-tw" href="#"><i class="fab fa-twitter"></i></a>
+											<a class="btn btn-goog" href="#"><i class="fab fa-google"></i></a>
+										</span>
+										Or
+										<form class="form" role="form" method="post" action="login" accept-charset="utf-8" id="login-nav">
+											<div class="form-group">
+												<label class="sr-only" for="InputEmail">Email</label>
+												<input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email address" required>
+											</div>
+											<div class="form-group"></div>
+											<div class="form-group"></div>
+											
+										</form>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
-
 	</div>
 
 
 
 
-	<!-- LINKING THE JS SCRIPT FILES AT THE END BECAUSE THEY ARE A BIT HEAVY AND MAY TAKE SOME TIME TO LOAD. THEY BASICALLY CONTRIBUTE TO THE LOGIC AND FUNCTIONING -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- LINKING THE JS SCRIPT FILES AT THE END BECAUSE THEY ARE A BIT HEAVY AND MAY TAKE SOME TIME TO LOAD. THEY BASICALLY CONTRIBUTE TO THE LOGIC AND FUNCTIONING. REMEMBER TO KEEP JQUERY FILE ON TOP OF BOOTSTRAP. -->
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 
 
 </body>
