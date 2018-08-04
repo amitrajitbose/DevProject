@@ -79,3 +79,89 @@ underlined*/
 		font-size:larger;
 	}
 }
+
+/*Login box CSS*/
+#login-dp{
+	min-width: 300px;
+	padding: 8px 8px 0;
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.8);
+}
+b{
+	font-weight:400;
+}
+#login-dp .help-block{
+	font-size:12px; /*adjusting the forgot password text*/
+}
+#login-dp .bottom{
+	background-color: rgba(255,255,255,0.9)
+	border-top: 1px solid #ddd;
+	clear:both;
+	padding: 14px;
+}
+
+#login-dp .social-buttons{
+	margin:5px 0;
+}
+
+#login-dp .social-buttons a{
+	width: 32.5%;
+}
+
+#login-dp .form-group{
+	margin-bottom: 10px;
+}
+
+.btn-fb{
+	color:#fff;
+	background-color: #3b5998;
+}
+
+.btn-fb:hover{
+	color:#fff;
+	background-color: #496ebc;
+}
+
+.btn-tw{
+	color:#fff;
+	background-color: #55acee ;
+}
+
+.btn-fb:hover{
+	color:#fff;
+	background-color: #59b5fa;
+}
+
+.btn-goog{
+	color:#fff;
+	background-color: #d34737 ;
+}
+
+.btn-fb:hover{
+	color:#fff;
+	background-color: #59b5fa;
+}
+
+#signup-btn{
+	background-color:#65c77e;
+	border: 0;
+	border-radius: 0;
+	height: 2.5em;
+}
+
+.social-buttons i{
+	margin-right: 2px;
+}
+
+
+@media(max-width: 768px){
+	#login-dp{
+		padding: 10px 50px 0;
+		background-color: inherit;
+		color:white;
+	}
+	#login-dp .bottom{
+		background-color: inherit;
+		border-top: 0 none;
+	}
+}
