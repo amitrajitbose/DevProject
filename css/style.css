@@ -56,3 +56,26 @@ p{
 }
 
 /*Default styles end here*/
+
+/*Navigation bar styling*/
+.navbar {
+	background-color: #222220 !important;
+	text-transform: uppercase;
+	font-family: 'Calibri';
+	font-weight: 300;
+	margin-bottom: -2px;
+	border-bottom: 2px solid #222220;
+}
+/*When hovering over the navbar, the option will get
+underlined*/
+.navbar a:hover{
+	border-bottom: solid 1px white;
+}
+
+/*To remove the odd looking underline from mobile layout*/
+@media(max-width: 768px){
+	.navbar a:hover{
+		border-bottom: none;
+		font-size:larger;
+	}
+}
