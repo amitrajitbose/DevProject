@@ -195,6 +195,7 @@ b{
 	position: relative;
 	top: -30px;
 }
+
 .flex-container{
 	display: flex !important;
 	border: 1px solid transparent !important;
@@ -223,4 +224,22 @@ b{
 	background-color: transparent;
 	border-color: white;
 	border: 1;
+}
+/* ADJUSTMENT FOR MOBILE DEVICES */
+@media(max-width: 768px){
+	.header h1{
+		font-size: 32px;
+	}
+	.header span{
+		font-size: 13px;
+	}
+	.header h3{
+		font-size: 13px;
+	}
+	.flex-1{
+		font-size:smaller;
+	}
+	.flex-2{
+		font-size:smaller;
+	}
 }
