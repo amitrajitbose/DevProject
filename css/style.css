@@ -243,3 +243,50 @@ b{
 		font-size:smaller;
 	}
 }
+
+/* SERVICES SECTION STARTS HERE */
+.services{
+	padding: 80px;
+	text-align: center;
+	margin-top: 10px;
+}
+.services h1, .services h4{
+	color: #4c4c4c;
+	padding-top: 20px 0 0 20px;
+	font-family: Calibri;
+}
+.services h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight:900;
+}
+.services h4{
+	margin-top: 20px;
+}
+.services p{
+	font-size: 14px;
+	padding-bottom: 40px;
+	color: #737373;
+	margin-top: 20px;
+}
+.services i{
+	height: 80px;
+	width: 80px;
+	font-size:35px;
+	padding: 25px 20px;
+	border-radius:50%;
+	background-color: #357cb9;
+	color: #fff;
+}
+@media(max-width: 768px){
+	.services{
+		padding:50px;
+		margin-top:50px;
+	}
+}
+
+.services i:hover{
+	background-color:white;
+	color: #357cb9;
+	font-size:45px;
+}
